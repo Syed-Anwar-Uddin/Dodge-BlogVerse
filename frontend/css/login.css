@@ -1,0 +1,42 @@
+body {
+    background-color: #f8f9fa;
+    background: linear-gradient(135deg, rgba(235, 242, 255, 0.2), rgba(209, 232, 255, 0.2)), url('../img/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 10px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+    color: #6c757d;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #0d6efd;
+    background-color: transparent;
+    border-bottom: 2px solid #0d6efd;
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    font-weight: 500;
+}
+
+.alert {
+    margin-bottom: 1rem;
+    display: none;
+}

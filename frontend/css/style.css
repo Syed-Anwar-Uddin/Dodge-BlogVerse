@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* box-model*/
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, rgba(235, 242, 255, 0.2), rgba(209, 232, 255, 0.2)), url('../img/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  padding: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 300px; /* Ensures the container has a fixed height */
+  object-fit: contain; /* Maintains the aspect ratio of the image */
+  background-color: rgba(255, 255, 255, 0); /* Adds white space */
+  /* border-radius: 10px; */
+  padding: 10px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust the alpha value (0.8) to control the transparency */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Smooth transition */
+  margin-top: 100px; /* Reduce the top margin */
+  padding-top: 10px; /* Reduce the top padding */
+  font-weight: bold; /* Make the font bold */
+}
+
+.card:hover {
+  transform: scale(1.02); /* Slightly enlarge the whole card on hover */
+}
+
+.place__holder__image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease; /* Smooth transition */
+}
+
+button {
+  background-color: #6e8efb; /* Solid blue color */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+button:hover {
+  background-color: #5a7de0; /* Slightly darker blue on hover */
+}
+
+body::-webkit-scrollbar { display: none; }
+
+/* ::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+} */
+
+/* Add the following code to reduce the gap between the navbar and the blog card */
+.blog-container {
+  background-color: rgba(255, 255, 255, 0.5); /* Adjust the alpha value (0.8) to control the transparency */
+  margin-top: 10px; /* Reduce the top margin */
+  padding-top: 10px; /* Reduce the top padding */
+  font-weight: bold; /* Make the font bold */
+}
+
+.col-12.text-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* #welcome-section {
+  background: linear-gradient(135deg, rgba(235, 242, 255, 0.5), rgba(209, 232, 255, 0.5)), url('img/background.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000000;
+  overflow: hidden; /* Prevent unnecessary scrollbars */
+  /* font-weight: bold; */
+/* } */
+
+/* #welcome-section h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: bold;
+} */
+
+/* #welcome-section button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  font-weight: bold;
+} */ 
+
+.navbar {
+  background-color: rgba(255, 255, 255, 0.8) !important; /* Ensure the transparency is applied */
+}
+
+.navbar a, .navbar button {
+  font-weight: bold;
+}
